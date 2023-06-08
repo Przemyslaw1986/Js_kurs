@@ -55,5 +55,9 @@ function add() { }
 /*
 komentarz wielowierszowy 
 alt shift a
+
+
+zło
+asda
 */
 
