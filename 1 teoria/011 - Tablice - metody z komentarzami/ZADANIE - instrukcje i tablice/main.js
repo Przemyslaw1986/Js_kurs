@@ -59,3 +59,30 @@ else {console.log("Pierwszy element tablicy to nie 'apple'")};
 // } else {
 //   console.log("Pierwszy element tablicy to nie 'apple'");
 // }
+// zloto
+
+// ----------------------------
+// const nmb = [5, 10, 15];
+// if ((nmb[0] + nmb[20]) > nmb[1]) 
+// {console.log("Suma pierwszego i ostatniego elementu jest większa niż drugi element")}
+// else if 
+// ((nmb[0] + nmb[2]) < nmb[1]) {console.log("Suma pierwszego i ostatniego elementu nie jest większa niż drugi element")}
+// else {console.log("Suma pierwszego i trzeciego elementu tablicy jest równa drugiemu elementowi")}
+
+// const firstAr = [1, 2, 3];
+// const secondAr = [4, 5, 4];
+
+// if (firstAr.length > secondAr.length) {console.log("Pierwsza tablica jest dłuższa")}
+// else if (firstAr.length < secondAr.length) {console.log("Druga tablica jest dłuższa")}
+// else {console.log("Tablice mają taką samą długość")}
+
+// const fru = ["pear", "banana", "orange"];
+// const fru_v2 = ["apple", "banana", "orange"];
+// if (fru[0] === "apple") 
+// {console.log("Pierwszy element tablicy to 'apple'")}
+// else 
+// {console.log("Pierwszy element tablicy, to nie 'apple'")};
+// if (fru_v2[0] === "apple")
+// {console.log("Pierwszy element tablicy fru_v2, to 'apple'")}
+// else
+// {console.log("Pierwszy element tablicy fru_v2, to nie 'apple'")}

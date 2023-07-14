@@ -10,7 +10,7 @@ const italianUsers = ["Giovanni", "Michele", "Angelo", "Luigi", "Valentina", "Ma
 
 // PUSH - dodaj element na końcu tablicy
 
-italianUsers.push("Alessandra", "Isabella" , "Grażyna");
+// italianUsers.push("Alessandra", "Isabella" , "Grażyna");
 // console.log(italianUsers);
 
 
@@ -30,7 +30,7 @@ italianUsers.push("Alessandra", "Isabella" , "Grażyna");
 
 // delete italianUsers[italianUsers.length - 1] //zmiana wartości ostatniego  na udenfined
 
-/* ---------------------------------  */
+
 
 // SHIFT - Usuń pierwszy element
 // Usunięcie wartości i indeksu (nie tylko wartości)
@@ -39,6 +39,9 @@ italianUsers.push("Alessandra", "Isabella" , "Grażyna");
 // italianUsers.shift();
 // console.log(italianUsers);
 // delete italianUsers[0] //zmiana wartości pierwszego na udenfined
+
+/* ---------------------------------  */
+// ------------------------
 
 // CO ZWRACAJĄ TE METODY (BO OPRÓCZ TEGO, ŻE COŚ ROBIĄ /POWYŻEJ/ TO COŚ ZWRACAJĄ)
 
