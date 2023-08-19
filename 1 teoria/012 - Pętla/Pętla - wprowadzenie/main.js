@@ -12,7 +12,7 @@
 } */
 // for - słowo kluczowe
 
-for (let i = 0; i <= 2; i++) {
+for (let i = 0; i < 10; i++) {
  console.log("wyświetlenie " + i);
 }
 
@@ -60,16 +60,23 @@ while (false) {
 //  money -= 8;
 // }
 
+// let money = 100;
+// while (money >= 8) {
+//  console.log(`Mam jeszcze  ${money} złotych. To pijemy piwko!`);
+//  money -= 8;
+// }
+
 // alert(`za ${money} złote, już piwka nie kupię :((((`)
 
 // Przykład 3
-// let gasoline = 40;
-// let km = 0;
+let gasoline = 40;
+let km = 0;
 
-// while (gasoline--) {
-//  km += 18;
-//  console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
-// }
+while (gasoline--) {
+ km += 18;
+ console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
+}
+// if (gasoline = 0); {console.log("nie masz benzyny, dalej nie pojedziesz")}
 
 
 //DO...WHILE

@@ -1,10 +1,10 @@
 // Pętla w pętli
 
-// for (let i = 0; i < 3; i++) {
-//  for (let j = 0; j < 10; j++) {
-//   console.log(`zmienna i czyli ${i} pomnożona przez zmienną j czyli ${j} da wynik ${i * j}`);
-//  }
-// }
+for (let i = 0; i < 3; i++) {
+ for (let j = 0; j < 10; j++) {
+  console.log(`zmienna i czyli ${i} pomnożona przez zmienną j czyli ${j} da wynik ${i * j}`);
+ }
+}
 
 
 
@@ -19,6 +19,7 @@
 
 //  console.log('użytkownik o indeksie ' + i + ' jest w wieku ' + usersAge[i]);
 // }
+
 
 //  Przykład2 - obliczmy wiek użytkownika
 
@@ -49,8 +50,8 @@
 
 // PĘTLA FOR - OF (ES6)
 
-const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
+// const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
 
-for (const color of colors) {
- console.log("mój ulubiony kolor to: " + i);
-}
+// for (const color of colors) {
+//  console.log("mój ulubiony kolor to: " + i);
+// }
