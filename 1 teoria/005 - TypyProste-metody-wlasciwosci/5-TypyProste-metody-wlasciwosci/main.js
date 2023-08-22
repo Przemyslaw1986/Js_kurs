@@ -22,7 +22,7 @@ txt[2]; //pobranie znaku, kótry znajduje się pod danym indeksem
 // metoda(argument)
 
 txt.toUpperCase; //zwraca funkcje (czyli bez wywowałania kieruje do funkcji (metodą określamy funkcję, która jest przypisana do obiektu - oczywiście będziemy o tym jeszcze rozmawiać)
-txt.toUpperCase(); //wywołanie metody dla string
+txt.toUppnerCase(); //wywołanie metody dla string
 score.toFixed(); //wywołanie metody dla number (typy nie mają tych samych metod, tylkjo różne)
 txt.indexOf('ś'); //metoda sprawdzająca czy w danym stringu jest wskazany znak, a jeśli tak to na jakiej pozycji (o jakim indeksie, licząć od zera)
 
@@ -36,8 +36,9 @@ const name = "Janek";
 name.length; //właściwość której nie ma w typie prostym, i teraz zaczyna pracować silnik, który robi sobie mniej więcej coś takiego jak ponizej by pobrać wartość tej właściwości
 // 2- SILNIK TWORZY OBIEKT NA TYM ETAPIE (nazwa zmiennejj tylko dla przykładu)
 //Tworzy obiekt String np. 
-// const nameTemporary = new String(name);
-//nameTemporary.length
+const nameTemporary = new String(name);
+nameTemporary.length
+
 // 3 - Zwraca 5 (bo taką ma długość "Janek") i usuwa obiekt String (w przykłądzie znajduje się w nameTemporary)
 
 /* Reasumując: Jeżeli wywołujemy metody, czy chcemy dostać sie do zawartości własciwości, to w tle tworzony jest tymaczowy obiekt danego typu, który "opakowuje" nasz typ prosty na czas dotarcia do właściwości czy wywowłania metody.*/

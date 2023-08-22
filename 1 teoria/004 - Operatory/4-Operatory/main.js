@@ -67,7 +67,7 @@ newPosition += position; // pobiera wartość newPosition i dodaje do niej warto
 // === - porównanie, które nie dopuszcza konwersji typów
 "2" === 2; //bez konkwersji typów, a więc "2" nie jest równe 2 i zwraca false
 
-// operator "różne od" Czy lewa strona jest rózna od prawej. Jeśli trak zwraca true (do true potrzebne są by obie strony nie były takie same)
+// operator "różne od" Czy lewa strona jest rózna od prawej. Jeśli tak, zwraca true (do true potrzebne są by obie strony nie były takie same)
 100 != 101; //true - bo są różne
 "100" != 100; //false - bo są takie same (!= operator dopuszcza konwersję tka jak ==) 
 "100" !== 100; //true - są różne bo nie ma konwerji (!== nie dopuszcza konwersji jak operator ===)
@@ -87,7 +87,7 @@ false || false; //zwraca drugą wartość false
 0 || null // obie wartości są nieprawdziwe. Ponieważ pierwsza jest nieprawdziwa zwracana jest druga czyli null (która stanowi false po zamiania na wartość logiczną)
 
 // ILOCZYN logiczny (logiczne "i")
-//Obie wartości (wyrażenia) muszą być uznane za prawdziwe by iloczyn logiuczny był uznany za prawdziwy. Tu również musimy jednak zrozumieć mechanizm zwracania. W przypadku gdy pierwszy argument (po lewje) jest nieprawdziwy, kończy to działania operatora i zwracana jest pierwsza wartość. Jeśli pierwsza wartość jest true (czy po konwersji na typ boolean, bo ta się wykonuje), to operator sprawdza wartość (wyrażenie) po prawej stronie i zwraca je. Ta zwrócona wartość decyduje czy logiczne "i" (czyli iloczyn logiczny) zwraca wartość true/false (czy inną wartość, któa po konwersji zwróci true/false)
+//Obie wartości (wyrażenia) muszą być uznane za prawdziwe by iloczyn logiczny był uznany za prawdziwy. Tu również musimy jednak zrozumieć mechanizm zwracania. W przypadku gdy pierwszy argument (po lewje) jest nieprawdziwy, kończy to działania operatora i zwracana jest pierwsza wartość. Jeśli pierwsza wartość jest true (czy po konwersji na typ boolean, bo ta się wykonuje), to operator sprawdza wartość (wyrażenie) po prawej stronie i zwraca je. Ta zwrócona wartość decyduje czy logiczne "i" (czyli iloczyn logiczny) zwraca wartość true/false (czy inną wartość, któa po konwersji zwróci true/false)
 true && false; //Pierwszy warunek jest true, operator przechodzi do drugiego i zwraca false
 200 && 0; // podobnie jak wyzej. 200 zamieniane jest (konwersja) na true. Zwracane jest 0 (czyli po konwersji false)
 "1" && "2"; //oba warunki prawdziwe, zwracane jest "2" czyli string, któy po konwersji na typ boolean jest true

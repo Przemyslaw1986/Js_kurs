@@ -19,7 +19,7 @@ for (let i = 0; i < 3; i++) {
 
 //  console.log('użytkownik o indeksie ' + i + ' jest w wieku ' + usersAge[i]);
 // }
-
+ 
 
 //  Przykład2 - obliczmy wiek użytkownika
 

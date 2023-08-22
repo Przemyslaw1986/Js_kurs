@@ -16,7 +16,7 @@ NaN;
 null;
 undefined;
 
-// OPERATORY ZWRACAJĄCE TYP LOGICZNY
+// -----------   OPERATORY ZWRACAJĄCE TYP LOGICZNY  -----------
 
 //większy/mniejszy porównanie
 2 > 4; // false
@@ -41,6 +41,8 @@ const userName1 = "Ścibor";
 const userName2 = "";
 !!userName1
 !!userName2
+
+
 
 // LOGICZNE "I" (iloczyn logiczny) &&
 //oba elementy prawdziwe

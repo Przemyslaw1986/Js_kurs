@@ -101,11 +101,19 @@ const singleQuoteExample2 = 'i\'m Magda' // (\)backslash to ten ten drugi to (/)
 // const slash = 'ktos\cos'
 const slash = 'ktos\\cos'
 const longText = 'tekst \n tekst'
+const longText2 = "tekst \n tekst"
 
 const superText = `tekst
 tekst w nowej linii i 
 cudzysłów " 
 i apostrof '`
+
+console.log(singleQuoteExample)
+console.log(singleQuoteExample2)
+console.log(slash)
+console.log(longText)
+console.log(longText2)
+console.log(superText)
 
 // konwersja innego typu na stringa
 String(1000000) //"1000000"
@@ -125,5 +133,5 @@ String(1000000) //"1000000"
 //- Pusty string ("") jest zamieniany na wartość false
 //- String z jakimś znakiem(znakami) w środku jest zamieniany na true 
 Boolean() //konwersja na wartość typu Boolean. Funkcja Boolean działa podobnie jak poznane już String i Number (tylko zmienia na inny typ)
-// console.log(Boolean(emptyString)) //false
-// console.log(Boolean(emptyObjectString)) //true
+console.log(Boolean(emptyString)) //false
+console.log(Boolean(emptyObjectString)) //true

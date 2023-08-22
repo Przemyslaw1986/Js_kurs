@@ -5,6 +5,7 @@
 
 // Przykład1
 const condition = 2;
+const condition2 = 0; 
 
 if (condition) {
  // alert("działa!");
@@ -106,6 +107,21 @@ switch (dayOfTheWeek) {
  default:
   console.log("nie ma pojęcia co to za dzień");
   break;
+// case "czwartek":
+//   console.log("dziś czwartunio");
+//   break;
+// case "piątek":
+//   console.log("piątunio mordullo");
+//   break;
+// case "sobota":
+//   console.log("szósty dzień tygodnia ja rozpalony jak pochodnia");
+// case "niedziela":
+//   console.log("niedzielka - będzie rosół");
+//   break;
+// default:
+//   console.log("nie wiem co to za dzień nawet");
+//   break;
+
 }
 
 // OPERATOR WARUNKOWY / OPERATOR POTRÓJNY (TRÓJKOWY)
@@ -129,7 +145,7 @@ score > 120 ? console.log("prawda") : console.log("fałsz");
 
 let gameResult = 0;
 let killedMonsters = 9
-let score = killedMonsters > 10 ? 1 : 0;
+let score1 = killedMonsters > 10 ? 1 : 0;
 
 
 const playerName = "Mściowej";

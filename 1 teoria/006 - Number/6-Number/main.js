@@ -102,7 +102,7 @@ Number("cos"); //NaN - jeśli czegoś nie może zamienić w liczbę
 "20" * 1
  // Sztuczka działająca (hack)
  + "20"
-// Natomiast liczbę na stringa możemy zamienić dodając pusty strong
+// Natomiast liczbę na stringa możemy zamienić dodając pusty string
 20 + ""
 
 //Gdy chcemy typ number zamienić na typ string (toString było wyżej, ale przypominam) 

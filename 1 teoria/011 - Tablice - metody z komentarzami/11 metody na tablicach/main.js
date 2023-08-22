@@ -5,7 +5,7 @@ const italianUsers = ["Giovanni", "Michele", "Angelo", "Luigi", "Valentina", "Ma
 
 
 
-// PODSTAWOWE METODA, KTÓRE TRZEBA ZNAĆ
+// PODSTAWOWE METODY, KTÓRE TRZEBA ZNAĆ
 
 
 // PUSH - dodaj element na końcu tablicy
@@ -113,7 +113,7 @@ const animals = ["dog", "cat", "canary", "mouse"];
 // animals.splice(2, 0, "rat");
 // animals.splice(0, 0, "horse", "pig", "donkey");
 
-// BARDZO WAŻNE. Metod splice nie tylko wykonuje operacje na tablicy (zmienie ją), ale też zwraca wartości, kóre usuwa w formie tablicy. Więc to co usunięmy możemy wykorzystać.
+// BARDZO WAŻNE. Metod splice nie tylko wykonuje operacje na tablicy (zmienie ją), ale też zwraca wartości, kóre usuwa (w formie tablicy). Więc to co usunięmy możemy wykorzystać.
 
 // const pets = animals.splice(0, 3);
 
