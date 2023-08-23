@@ -25,9 +25,12 @@ const showMessage = function() {
  console.log("wywołałem funkcję showMessage")
 }
 
-// showMessage()
+
+console.log("przyjacielom Elo")
+showMessage()
 
 // taka funkcja bez nazwy określana jest funkcją anonimową.
+
 
 
 
