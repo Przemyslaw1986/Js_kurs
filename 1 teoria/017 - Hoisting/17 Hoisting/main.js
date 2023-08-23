@@ -61,6 +61,6 @@ let funkcjaLet = function() { };
 var funkcjaVar = function() { };
 
 
-// Reasumująć hositingowi (przenoszeniu deklaracji na początek zakresu) podlegają funkcje i deklaracje zmiennych, ale tylko za pomocą var. Hoistingowi nie podlega przypisane wartości w zmiennych.
+// Reasumująć, hositingowi (przenoszeniu deklaracji na początek zakresu) podlegają funkcje i deklaracje zmiennych, ale tylko za pomocą var. Hoistingowi nie podlega przypisane wartości w zmiennych.
 
 // Trzeba wiedzieć, ze hoisting istnieje, nie koniecznei trzeba to "wykorzystywać". Być może najlepiej go unikać (a więc nie uzywać var i deklaracji funkcji)
