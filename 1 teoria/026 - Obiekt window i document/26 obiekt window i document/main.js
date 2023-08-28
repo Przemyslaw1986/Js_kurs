@@ -15,6 +15,8 @@ document.title;
 document.domain;
 document.body;
 
+
+
 // Przykładowe właściwości i metody window
 
 window.innerHeight; //wysokość okna (inneWidth - szerokość)
