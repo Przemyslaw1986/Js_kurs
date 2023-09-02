@@ -1,10 +1,10 @@
 // MODYFIKACJA ELEMENTÓW DOM
 
-const firstLi = document.querySelector('li:first-child');
+const firstLi = document.querySelector("li:first-child");
 
-// Możemy modyfikować zawartość elementy poprzez przypisanie nowych właściwości textConten lub innerHTML. Stara wartość jest usuwana.
+// Możemy modyfikować zawartość elementu poprzez przypisanie nowych właściwości textConten lub innerHTML. Stara wartość jest usuwana.
 firstLi.textContent = "Nowa zawartość tekstowa";
-firstLi.innerHTML = '<strong>Pogrubienie</strong> i normalnie';
+firstLi.innerHTML = "<strong>Pogrubienie</strong> i normalnie";
 
 // Możemy też dodać do obecnej zawartości dodatkową treść np.
 firstLi.textContent += " coś nowego";
@@ -12,7 +12,7 @@ firstLi.textContent += " coś nowego";
 // Dodawanie stylów do elementu(liniowo)
 firstLi.style.fontSize = "30px";
 firstLi.style.backgroundColor = "#ccc";
-firstLi.style.letterSpacing = "2px"
+firstLi.style.letterSpacing = "2px";
 
 // Dodawanie, odejmowanie i przełączanie klas
 // firstLi.classList.toggle("space");
@@ -24,10 +24,10 @@ firstLi.className = "one two";
 firstLi.id = "";
 
 // Ustawić zawartość atrybutu (również nadpisując ten obecny) można za pomocą metody setAttribute. Zwrócmy uwagę, że tu już możemy użyć nazwy class ponieważ jest ona przekazana w stringu (a zawartość stringa moze być dowolna i nie jest oczywiscie bolokowana przez nazwy zastrzeżone)
-firstLi.setAttribute('title', 'Uwaga, ważne');
-firstLi.setAttribute('class', 'sizeX');
+firstLi.setAttribute("title", "Uwaga, ważne");
+firstLi.setAttribute("class", "sizeX");
 
-//setAttribute czy odniesienie do własciści (element.id czy element.className) nadpisują, więc nie zawsze śą dobrym rozwiązaniem.
+//setAttribute czy odniesienie do własciści (element.id czy element.className) nadpisują, więc nie zawsze są dobrym rozwiązaniem.
 
 // Modyfikowanie wielu elementów
 
