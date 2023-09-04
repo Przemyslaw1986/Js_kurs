@@ -17,6 +17,7 @@ let b = 354;
 
 // npm install --save-dev eslint
 // npm init @eslint/config
+// npm install --save-dev --save-exact prettier
 
 let variable = "boso";
 let v1 = `olo`;
