@@ -24,6 +24,43 @@
 
   </ul>
 
+<script>
+// let counter = 1;
+
+  // const btn = document.querySelector("button");
+  // btn.addEventListener("click", function(){
+  //   const li = document.createElement("li");
+  //   li.textContent = counter;
+
+  //   if (counter%3 == 0){
+  //     li.classList.add("big");
+      
+  //   }
+
+  //   document.body.appendChild(li);
+  //   counter += 2;
+
+  // })
+
+
+  let counter = 1;
+  const btn = document.querySelector("button");
+  const list = document.querySelector("ul");
+
+  btn.addEventListener("click", function(){
+    
+    const li = document.createElement("li");
+    li.textContent = counter;
+    list.appendChild(li);
+       if (counter%3 == 0){
+       li.classList.add("big");
+      
+       }
+    counter += 2;
+
+  })
+
+</script>
 </body>
 
 </html>
