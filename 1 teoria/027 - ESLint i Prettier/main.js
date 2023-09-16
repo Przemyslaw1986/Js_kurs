@@ -22,3 +22,5 @@ let b = 354;
 let variable = "boso";
 let v1 = `olo`;
 const c = () => (x) => x;
+
+let olo = ""
