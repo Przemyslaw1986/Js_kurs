@@ -6,33 +6,88 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Zadanie dla Ciebie - Skroll + zmiana wielkości prostokąta</title>
+ <style>
+
+    </style>
 </head>
 
 <body>
-    <div>
-
-    </div>
+   
  <script>
+
+// document.body.style.height = "10000px";
+// const div = document.createElement("div");
+// document.body.appendChild(div);
+// let size = 5;
+// let change = false;
+
+
+// div.style.backgroundColor = "red";
+// div.style.width = "100%";
+// div.style.height = size +"px";
+// div.style.position = "fixed";
+// div.style.top = 0;
+// div.style.left = 0;
+
+// const changeSize = function (){
+//     if (size > window.innerHeight/2){
+//         change = !change;
+//         div.style.backgroundColor = "red";
+//     } else if (size <= 0){
+//         change = !change;
+//         div.style.backgroundColor = "green";
+//     }
+//     if (change){
+//         size += 3;
+    
+//     }
+//     else {
+//         size -= 3;
+        
+//     }
+//     div.style.height = size + "px";
+// }
+
+
+
+// window.addEventListener("scroll", changeSize);
 
 document.body.style.height = "10000px";
 const div = document.createElement("div");
 document.body.appendChild(div);
+let grow = true;
+let size = 5;
 
-
-
-
-div.style.backgroundColor = "black";
-div.style.width = "100%";
-div.style.hight = "100px";
 div.style.position = "fixed";
 div.style.top = 0;
 div.style.left = 0;
+div.style.width = "100%";
+div.style.height = size + "px";
 
-const changeSize = function (){
 
+div.style.backgroundColor = "green";
+
+const changeHeight = function () {
+    if ( size > window.innerHeight/2){
+grow = !grow;
+div.style.backgroundColor = "green";
+    }
+    else if (size <= 0 ){
+        grow = !grow;
+        div.style.backgroundColor = "red";
+    }
+    if (grow){
+        size += 5;
+    }
+    else {
+        size -= 5;
+
+    }
+    div.style.height = size + "px";
 }
-document.body.addEventListener("click", changeSize);
 
+
+window.addEventListener("scroll", changeHeight)
 
  </script>
 </body>
